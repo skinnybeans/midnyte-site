@@ -1,0 +1,57 @@
+body {
+  font-size: 1.4rem; /* 20 pixel default font size */
+}
+
+/* Utility classes */
+
+.section-margin {
+  margin-bottom: 0;
+}
+
+/* Header */
+#main-header {
+  flex-direction: column;
+}
+
+/* About us */
+
+#about {
+  align-items: center;
+}
+
+#about .image {
+  display: none;
+}
+
+#about .copy {
+  padding: 0rem 1rem;
+  margin: 0 auto;
+}
+
+#about .copy h2 {
+  padding: 0rem 0;
+}
+
+/* Our Services */
+#services {
+  display: flex;
+  align-items: center;
+  align-content: stretch;
+}
+
+#services .container {
+  flex-direction: column;
+  text-align: left;
+  margin: 4rem 0 0 0;
+  height: unset;
+}
+
+#services .container .service {
+  flex-direction: column;
+}
+
+#services h2 {
+  margin: 0;
+  padding: 1rem;
+}
+
